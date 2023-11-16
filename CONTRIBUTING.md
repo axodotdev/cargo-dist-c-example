@@ -1,8 +1,8 @@
 # Contributing
 
-Thanks so much for your interest in contributing to `axohtml`. We are excited
-about the building a community of contributors to the project. Here's some
-guiding principles for working with us:
+Thanks so much for your interest in contributing to `cargo-dist-c-example`. We
+are excited about the building a community of contributors to the project. Here's
+some guiding principles for working with us:
 
 **1. File an issue first!**
 
