@@ -1,5 +1,5 @@
 [package]
-name = "testprog"
+name = "cargo-dist-c-example"
 description = "A test of a C program for cargo-dist"
 version = "0.1.0"
 license = "WTFPL"
