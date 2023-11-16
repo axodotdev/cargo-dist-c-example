@@ -11,13 +11,13 @@ EXEEXT :=
 ifeq ($(OS), Windows_NT)
 	EXEEXT := .exe
 else
-# 	On Unix-based OSs, we can check uname -s to find out what we're running on
+#	On Unix-based OSs, we can check uname -s to find out what we're running on
 	UNAME_S := $(shell uname -s)
 
-#   If we're building under cargo-dist, we may be cross-compiling;
-#   check cargo-dist's CARGO_DIST_TARGET to find out what architecture
-#   we're meant to build for, and add Apple's architecture flags to the
-#   CFLAGS appropriately.
+#	If we're building under cargo-dist, we may be cross-compiling;
+#	check cargo-dist's CARGO_DIST_TARGET to find out what architecture
+#	we're meant to build for, and add Apple's architecture flags to the
+#	CFLAGS appropriately.
 	ifeq ($(UNAME_S), Darwin)
 		ifneq (,$(findstring x86_64,$(CARGO_DIST_TARGET)))
 			CFLAGS += -arch x86_64
