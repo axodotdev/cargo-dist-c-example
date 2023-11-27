@@ -1,22 +1,22 @@
-# oss-repo-template
-> 📄 a template for axodotdev's open source repositories
-
-This is a template repo for @axodotdev's open source projects.
+# cargo-dist-c-example
+> example makefile-based C program for cargo-dist
 
 ## Quickstart
 
-The README should contain a brief set of steps on how to go from installation to
-"Hello World". It should also link to more in depth and comprehensive install
-and usage documentation.
+### Building
 
-For a package, this should indicate how to add the package (e.g. cut and paste
-into `Cargo.toml`) and then a short example.
+To build this project run:
 
-For a cli, this should explain the preferred installation method and then offer
-the most common set of commands (e.g. `axo init && axo run`).
+```
+make
+```
 
-The code block for the example or command set shouldn't exceed 20 lines, but
-exceptions can be made.
+### Packaging
+
+This example works with `cargo-dist` by manually specifying configuration in the
+[`dist.toml` file](https://github.com/axodotdev/cargo-dist-c-example/blob/main/dist.toml).
+
+[Learn more about configuring `cargo-dist` for generic builds.](https://opensource.axo.dev/cargo-dist/book/generic-builds.html)  
 
 ## License
 
