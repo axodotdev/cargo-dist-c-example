@@ -5,7 +5,7 @@ version = "0.1.0"
 license = "WTFPL"
 repository = "https://github.com/mistydemeo/testprog"
 binaries = ["main"]
-build-command = ["make"]
+build-command = ["make", "clean", "all"]
 
 # Config for 'cargo dist'
 [dist]
