@@ -2,8 +2,8 @@
 name = "cargo-dist-c-example"
 description = "A test of a C program for cargo-dist"
 version = "0.1.0"
-license = "WTFPL"
-repository = "https://github.com/mistydemeo/testprog"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/axodotdev/cargo-dist-c-example"
 binaries = ["main"]
 build-command = ["make", "clean", "all"]
 
